@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <center>
+            <form action="" method="get">
+                <h1>Registration Form</h1>
+                <table border="1">
+                    <tr>
+                        <td>Company Name</td>
+                        <td><input type="text" name="Company_name" readonly value="TATA" id="Company_name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="firstname">Enter Your First Name</label></td>
+                        <td><input type="text" name="firstname" id="firstname" value="" placeholder="Enter Your First Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastname">Enter Your Last Name</label></td>
+                        <td><input type="text" name="lastname" id="lastname" value="" placeholder="Enter Your Last Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Enter Your Password</label></td>
+                        <td><input type="password" name="Password" id="password" value="" required></tr>
+                    <tr>
+                        <td><label for="password">Re-enter Your Password</label></td>
+                        <td><input type="password" name="confirm_password" id="confirm_password" value="" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Enter Your E-mail</label></td>
+                        <td><input type="email" name="email" id="email" value="" placeholder="example@gmail.com" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Enter Your Mobile</label></td>
+                        <td><input type="text" name="mobile" id="mobile" value="" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Enter Your Address</td>
+                        <td><textarea cols="20" rows="5" name="address" id="address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Gender</td>
+                        <td>
+                        Male<input type="radio" name="gender" id="male" value="male">
+                        Female <input type="radio" name="gender" id="female" value="female">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select Your Hobbies</td>
+                        <td>
+                        Hobby1 <input type="checkbox" name="hobby1" id="" value="hobby1">
+                        Hobby2 <input type="checkbox" name="hobby2" id="" value="hobby2">
+                        Hobby3 <input type="checkbox" name="hobby3" id="" value="hobby3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select Your Date Of Birth</td>
+                        <td><input type="date" name="dob" id="dob" value="" required></td>
+                    </tr>
+                    <tr>
+                        <td>Select Your Country</td>
+                        <td><select name="country" id="country">
+                            <option value="">Enter Your Country</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Canada">Canada</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Upload Your Picture</td>
+                        <td><input type="file" name="photo" id="" value=""></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
